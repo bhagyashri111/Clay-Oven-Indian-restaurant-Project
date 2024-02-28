@@ -1,0 +1,71 @@
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.order-link {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.order-link:hover {
+    text-decoration: none; /* Remove underline on hover */
+    font-weight: bold; /* Example hover effect, you can customize further */
+}
+#menu-price-list {
+    font-size: 24px; /* Adjust font size */
+    font-weight: bold; /* Make text bold */
+    color: rgb(166, 144, 131);/* Set text color */
+    /* Add any additional styling you want */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.food-item {
+    font: size 16px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;   
+}
+#checkout-btn {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* No border */
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding */
+    text-align:right/* Text alignment */
+
+    
+}
+body {
+    text-align: center; /* Align button to the center */
+}
+
+#checkout-btn {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* No border */
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding */
+}

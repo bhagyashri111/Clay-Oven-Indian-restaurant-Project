@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online Food Order</title>
+<link rel="stylesheet" href="secondstyle.css">
+
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+</style>
+</head>
+<body>
+    <h1 style="color: #333;"></h1>
+    <header style="background-color: #333; color: #fff; padding: 20px; text-align: center;">
+        <h1 style="margin: 0; font-size: 36px; display: inline-block;"> Clay Oven Indian Restaurant</h1>
+      
+        <p style="font-size: 18px;"> <a href="onlinefoodorder.html" class="order-link">Online Food Order</a> </p>
+
+        <nav>
+            <ul>
+              <li><a href="Home.html">Home</a></li>
+              <li><a href="Reservations.html">Reservation</a></li>
+              <li><a href="ContactUS.html">Contact Us</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <h2 id="menu-price-list">Menu / Price List</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Description</th>
+      <th>Price</th>
+      <th>Quantity</th> <!-- Added Quantity column -->
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <td class="food-item">IDLI</td>
+      <td>3 Soft, steamed rice cakes made from fermented batter, served with tangy sambar and coconut chutney, a staple of South Indian cuisine. </td>
+      <td>$5.99</td>
+      <td>
+        <select>
+            <option value="1">0</option>
+            <option value="2">1</option>
+            <option value="3">2</option>
+            <option value="4">3</option>
+          <!-- Add more options as needed -->
+        </select>
+      </td> <!-- Quantity dropdown -->
+    </tr>
+    <tr>
+        <td class="food-item">Medu Vada</td>
+      <td>Deep fried lentil donuts served with sambar and chutneys </td>
+      <td>$8.99</td>
+      <td>
+        <select>
+        <option value="1">0</option>
+          <option value="2">1</option>
+          <option value="3">2</option>
+          <option value="4">3</option>
+          <!-- Add more options as needed -->
+        </select>
+      </td> <!-- Quantity dropdown -->
+    </tr>
+    <tr>
+        <td class="food-item"> Plain Dosa</td>
+      <td>Thin, golden crepe made from fermented rice and lentil batter, enjoyed with coconut chutney and sambar, presenting a simple yet delightful South Indian breakfast option</td>
+      <td>$10.99</td>
+      <td>
+        <select>
+        <option value="1">0</option>
+          <option value="2">1</option>
+          <option value="3">2</option>
+          <option value="4">3</option>
+          <!-- Add more options as needed -->
+        </select>
+      </td> <!-- Quantity dropdown -->
+    </tr>
+    <tr>
+        <td class="food-item"> Masala Dosa</td>
+      <td>Crisp, golden dosa stuffed with a flavorful potato masala filling, served with coconut chutney and sambar, a beloved choice for breakfast or brunch across India.  option</td>
+      <td>$11.99</td>
+      <td>
+        <select>
+        <option value="1">0</option>
+          <option value="2">1</option>
+          <option value="3">2</option>
+          <option value="4">3</option>
+          <!-- Add more options as needed -->
+        </select>
+      </td> <!-- Quantity dropdown -->
+    </tr>
+    <tr>
+        <td class="food-item"> Rava Dosa</td>
+      <td>Delicately thin and crispy crepe made from semolina batter, enhanced with spices and served with coconut chutney and sambar, providing a delightful twist to traditional dosa. </td>
+      <td>$12.99</td>
+      <td>
+        <select>
+        <option value="1">0</option>
+          <option value="2">1</option>
+          <option value="3">2</option>
+          <option value="4">3</option>
+          <!-- Add more options as needed -->
+        </select>
+      </td> <!-- Quantity dropdown -->
+    </tr>
+    <!-- Add more rows as needed -->
+  </tbody>
+</table>
+
+
+<button id="checkout-btn">Checkout</button>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+* External Styling */
+#external {
+    color: #666;
+}
+
+/* Internal Styling */
+.internal {
+    font-size: 18px;
+}
+
+/* CSS Selectors */
+.selector-demo {
+    background-color: #f0f0f0;
+}
+
+ul li {
+    font-weight: bold;
+}
+
+ul li.selector-demo {
+    color: #ff5733;
+}
+
+/* Complementary Colors */
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}

@@ -1,0 +1,45 @@
+.sliding-background {
+    background-image: url('BackgroundImage.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 500px; 
+}
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.order-link {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.order-link:hover {
+    text-decoration: none; /* Remove underline on hover */
+    font-weight: bold; /* Example hover effect, you can customize further */
+}

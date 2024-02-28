@@ -1,0 +1,85 @@
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.order-link {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.order-link:hover {
+    text-decoration: none; /* Remove underline on hover */
+    font-weight: bold; /* Example hover effect, you can customize further */
+}
+/* CSS styles for the reservation form container */
+.reservation-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+/* CSS styles for form elements inside the reservation container */
+.reservation-container form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.reservation-container form input[type="text"],
+.reservation-container form input[type="email"],
+.reservation-container form input[type="date"],
+.reservation-container form input[type="time"],
+.reservation-container form input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.reservation-container form button[type="submit"] {
+    width: calc(100% - 20px);
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.reservation-container form button[type="submit"]:hover {
+    background-color: #555;
+}
+h2 {
+    text-align: center; /* Center the text horizontally */
+}

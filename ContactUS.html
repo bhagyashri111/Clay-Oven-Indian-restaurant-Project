@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reservation</title>
+<link rel="stylesheet" href="ContactUs.css">
+
+</head>
+<body>
+    <header style="background-color: #333; color: #fff; padding: 20px; text-align: center;">
+        <h1 style="margin: 0; font-size: 36px; display: inline-block;"> Clay Oven Indian Restaurant</h1>
+      
+        <p style="font-size: 18px;"> <a href="onlinefoodorder.html" class="order-link">Online Food Order</a> </p>
+
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Reservations.html">Reservation</a></li>
+                <li><a href="ContactUS.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>Contact Us</h2>
+
+    <!-- contact us form container -->
+    <div class="contact-container">
+        <form id="contactForm">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="subject">Subject:</label><br>
+            <input type="text" id="subject" name="subject"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- Include the JavaScript file for handling reservation -->
+    <script src="contactus.js"></script>
+</body>
+</html>
